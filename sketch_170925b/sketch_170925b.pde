@@ -1,6 +1,8 @@
-PImage imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,imagen8,imagen9,imagen10,imagen11,imagen12,imagen13,imagen14,imagen15,imagen16,imagen17,imagen18,imagen19,imagen20,imagen21,imagen22,imagen23,imagen24;
+PImage mouse,fondo,imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,imagen8,imagen9,imagen10,imagen11,imagen12,imagen13,imagen14,imagen15,imagen16,imagen17,imagen18,imagen19,imagen20,imagen21,imagen22,imagen23,imagen24;
 void setup(){
 size(1200,700);
+mouse=loadImage("mouse.png");
+fondo=loadImage("portada.jpg");
 imagen1=loadImage("cebra.jpg");
 imagen2=loadImage("coala.jpg");
 imagen3=loadImage("cuncuna.jpg");
@@ -25,9 +27,10 @@ imagen21=loadImage("pollo.jpg");
 imagen22=loadImage("sapos.jpg");
 imagen23=loadImage("tortuga.jpg");
 imagen24=loadImage("gallina.jpg");
-
+noCursor();
 }
 void draw(){
+  image(fondo,0,0,1200,700);
   image(imagen1,100,20,100,100);
   image(imagen2,260,20,100,100);
   image(imagen3,420,20,100,100);
@@ -52,5 +55,5 @@ void draw(){
   image(imagen22,580,470,100,100);
   image(imagen23,740,470,100,100);
   image(imagen24,900,470,100,100);
-  
+  image(mouse,mouseX,mouseY);
 }
