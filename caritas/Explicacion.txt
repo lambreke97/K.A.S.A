@@ -1,0 +1,29 @@
+                                                                                    Uso de Kinect con Processing:
+Se muestra el uso de kinect con processing y sus respectivos archivos de descarga, cuenta con videos explicativos.
+
+https://programarfacil.com/blog/vision-artificial/kinect-y-processing/
+
+                                                                                             Introduccion de texto:
+
+Las paginas muestran distintas maneras de insertar un texto en processing y distintas maneras de que aparescan en la ventana,
+como el tamaño, el estilo, y la posicion.
+
+https://translate.google.cl/translate?hl=es-419&sl=en&u=https://processing.org/reference/text_.html&prev=search
+
+https://www.youtube.com/watch?v=NLzne4XaR3M
+
+                                                                                        Insertar imagenes en processing:
+La pagina muestra como es posible introducir una imagen mediante un codigo simple ya sea que se encuentre en el computador o esta este 
+presente en internet, solo escribiendo su ubicacion.
+
+http://www.programacionyrobotica.com/cargar-una-imagen-en-processing/
+
+                                                                                               Colores
+
+Se muestra el manejo de colores en ventanas y figuras, mediante manejo de rgb o sintesis aditiva.Tambien es posible transparentar dichos 
+colores,he inclusive utilizar valores hexadecimales para implementarlos.
+
+http://avantspace.org/processing/p5color.htm
+
+
+
