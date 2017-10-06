@@ -4,56 +4,6 @@ int    x, y;                                                 // atributos de pos
 int    w, h;                                                 // atributos de tamaño
 PImage img;                                                  // atributo  de imagen
 
-//
-public Boton(int t,int x, int y, int w, int h, PImage img) { // método constructor
-this.tag = t;                                              // que crea una instancia
-this.x   = x;                                              // de la clase y asigna a
-this.y   = y;                                              // sus atributos valores
-this.w   = w;                                              // pasados como parámetro
-this.h   = h;                                              //
-this.img = img;                                            //
-}                                                            //
-//
-void draw() {                                                // boton dibuja su imagen
-image(img, x, y, w, h);                                    //
-}                                                            //
-//
-public PImage getImagen() { return img; }                    // getter para obtener imagen
-public int    getTag()    { return tag; }                    // getter para obtneer el tag
-//
-public void   setImagen(PImage img) { this.img = img; }      // setter para cambiar imagen
-public void   setTag(int t) { this.tag = t; }                // setter para cambiar tag
-//
-public boolean Clic() {                                      // método que devuelve verdadero
-if(mousePressed                                            // si el botón del ratón está pulsado
-&& mouseX > x                                           // más allá de inicio horizontal del botón
-&& mouseX < x + w                                       // antes del final horizontal del botón
-&& mouseY > y                                           // más allá de inicio vertical del botón
-&& mouseY < y + h) return true;                         // antes de final vertical del botón
-return false;                                              // pero falso en caso contrario
-}                                                            //
-}
-
-import com.dhchoi.CountdownTimer;
-import com.dhchoi.CountdownTimerService;
-
-CountdownTimer timer;
-String timerCallbackInfo = "";
-
-Boton[] arreglo = new Boton[8];
-Boton[] jugarA = new Boton[1];
-PImage[] images = new PImage[4];
-int[] eliminados = new int[8];
-int aciertos = 0;
-
-int anterior = -1;
-int siguiente = -1;
-int primero = -1;
-int ultimo = -1;
-int clicks = 0;
-
-boolean jugando = false;
-
 void setup() {
 size(800,250);
 
@@ -114,6 +64,56 @@ Boton botonJugar = new Boton(tag,posX,posY,w,h,imagen);
 jugarA[0] = botonJugar;
 botonJugar.draw();
 }
+//
+public Boton(int t,int x, int y, int w, int h, PImage img) { // método constructor
+this.tag = t;                                              // que crea una instancia
+this.x   = x;                                              // de la clase y asigna a
+this.y   = y;                                              // sus atributos valores
+this.w   = w;                                              // pasados como parámetro
+this.h   = h;                                              //
+this.img = img;                                            //
+}                                                            //
+//
+void draw() {                                                // boton dibuja su imagen
+image(img, x, y, w, h);                                    //
+}                                                            //
+//
+public PImage getImagen() { return img; }                    // getter para obtener imagen
+public int    getTag()    { return tag; }                    // getter para obtneer el tag
+//
+public void   setImagen(PImage img) { this.img = img; }      // setter para cambiar imagen
+public void   setTag(int t) { this.tag = t; }                // setter para cambiar tag
+//
+public boolean Clic() {                                      // método que devuelve verdadero
+if(mousePressed                                            // si el botón del ratón está pulsado
+&& mouseX > x                                           // más allá de inicio horizontal del botón
+&& mouseX < x + w                                       // antes del final horizontal del botón
+&& mouseY > y                                           // más allá de inicio vertical del botón
+&& mouseY < y + h) return true;                         // antes de final vertical del botón
+return false;                                              // pero falso en caso contrario
+}                                                            //
+}
+
+import com.dhchoi.CountdownTimer;
+import com.dhchoi.CountdownTimerService;
+
+CountdownTimer timer;
+String timerCallbackInfo = "";
+
+Boton[] arreglo = new Boton[8];
+Boton[] jugarA = new Boton[1];
+PImage[] images = new PImage[4];
+int[] eliminados = new int[8];
+int aciertos = 0;
+
+int anterior = -1;
+int siguiente = -1;
+int primero = -1;
+int ultimo = -1;
+int clicks = 0;
+
+boolean jugando = false;
+
 
 void desordenar(){
 int cero = 0;
