@@ -1,0 +1,243 @@
+object Form1: TForm1
+  Left = 226
+  Height = 508
+  Top = 133
+  Width = 858
+  Caption = 'Form1'
+  ClientHeight = 508
+  ClientWidth = 858
+  LCLVersion = '1.0.1.3'
+  object Panel1: TPanel
+    Left = 0
+    Height = 64
+    Top = 0
+    Width = 850
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 60
+    ClientWidth = 846
+    Color = clBlue
+    ParentColor = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 254
+      Height = 36
+      Top = 6
+      Width = 307
+      Caption = 'datos del cliente '
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -32
+      Font.Name = 'Algerian'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 452
+    Top = 56
+    Width = 842
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 448
+    ClientWidth = 838
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 1
+    OnClick = Panel2Click
+    object Label2: TLabel
+      Left = 13
+      Height = 18
+      Top = 22
+      Width = 51
+      Caption = 'nombre'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edit1: TEdit
+      Left = 13
+      Height = 23
+      Top = 39
+      Width = 274
+      TabOrder = 0
+    end
+    object Label3: TLabel
+      Left = 13
+      Height = 18
+      Top = 70
+      Width = 50
+      Caption = 'apellido'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edit2: TEdit
+      Left = 13
+      Height = 23
+      Top = 86
+      Width = 274
+      TabOrder = 1
+    end
+    object Label4: TLabel
+      Left = 13
+      Height = 18
+      Top = 110
+      Width = 22
+      Caption = 'rut '
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 14
+      Height = 18
+      Top = 150
+      Width = 48
+      Caption = 'celular '
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 14
+      Height = 18
+      Top = 190
+      Width = 74
+      Caption = 'telefono fijo'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 13
+      Height = 18
+      Top = 238
+      Width = 60
+      Caption = 'direccion'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edit3: TEdit
+      Left = 13
+      Height = 23
+      Top = 126
+      Width = 274
+      TabOrder = 2
+    end
+    object Edit4: TEdit
+      Left = 13
+      Height = 23
+      Top = 166
+      Width = 274
+      TabOrder = 3
+    end
+    object Edit5: TEdit
+      Left = 13
+      Height = 23
+      Top = 214
+      Width = 274
+      TabOrder = 4
+    end
+    object Edit6: TEdit
+      Left = 13
+      Height = 23
+      Top = 262
+      Width = 274
+      TabOrder = 5
+    end
+    object Label8: TLabel
+      Left = 13
+      Height = 18
+      Top = 294
+      Width = 36
+      Caption = 'email'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 13
+      Height = 18
+      Top = 334
+      Width = 74
+      Caption = 'comentario'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edit7: TEdit
+      Left = 14
+      Height = 23
+      Top = 310
+      Width = 274
+      TabOrder = 6
+    end
+    object Edit8: TEdit
+      Left = 13
+      Height = 23
+      Top = 350
+      Width = 385
+      TabOrder = 7
+    end
+    object Button2: TButton
+      Left = 6
+      Height = 35
+      Top = 390
+      Width = 210
+      Caption = 'guardar datos '
+      Color = clLime
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Algerian'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+  end
+end
