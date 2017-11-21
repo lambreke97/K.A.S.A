@@ -1,0 +1,58 @@
+object Form4: TForm4
+  Left = 214
+  Height = 182
+  Top = 150
+  Width = 320
+  Caption = 'Form4'
+  ClientHeight = 182
+  ClientWidth = 320
+  LCLVersion = '1.0.1.3'
+  object Panel1: TPanel
+    Left = 8
+    Height = 58
+    Top = 0
+    Width = 314
+    ClientHeight = 58
+    ClientWidth = 314
+    Color = clBlue
+    ParentColor = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 98
+      Height = 22
+      Top = 13
+      Width = 126
+      Caption = 'dato buscar'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -19
+      Font.Name = 'Algerian'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 16
+    Top = 72
+    Width = 49
+    Caption = 'id cliente'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 7
+    Height = 23
+    Top = 96
+    Width = 67
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 91
+    Height = 36
+    Top = 130
+    Width = 105
+    Caption = 'buscar'
+    TabOrder = 2
+  end
+end

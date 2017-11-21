@@ -1,0 +1,183 @@
+object Form2: TForm2
+  Left = 410
+  Height = 524
+  Top = 189
+  Width = 356
+  Caption = 'Form2'
+  ClientHeight = 524
+  ClientWidth = 356
+  LCLVersion = '1.0.1.3'
+  object Edit1: TEdit
+    Left = 12
+    Height = 23
+    Top = 56
+    Width = 128
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 12
+    Height = 16
+    Top = 40
+    Width = 11
+    Caption = 'id'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 12
+    Height = 16
+    Top = 79
+    Width = 43
+    Caption = 'nombre'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 12
+    Height = 16
+    Top = 128
+    Width = 43
+    Caption = 'apellido'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 12
+    Height = 16
+    Top = 176
+    Width = 16
+    Caption = 'rut'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 12
+    Height = 16
+    Top = 224
+    Width = 27
+    Caption = 'edad'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 12
+    Height = 16
+    Top = 280
+    Width = 93
+    Caption = 'celular o telefono'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 12
+    Height = 16
+    Top = 327
+    Width = 50
+    Caption = 'direccion'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 12
+    Height = 23
+    Top = 352
+    Width = 128
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 12
+    Height = 23
+    Top = 96
+    Width = 128
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 12
+    Height = 23
+    Top = 152
+    Width = 128
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 12
+    Height = 23
+    Top = 192
+    Width = 128
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 12
+    Height = 23
+    Top = 248
+    Width = 128
+    TabOrder = 5
+  end
+  object Edit7: TEdit
+    Left = 12
+    Height = 23
+    Top = 296
+    Width = 128
+    TabOrder = 6
+  end
+  object Edit8: TEdit
+    Left = 12
+    Height = 23
+    Top = 408
+    Width = 128
+    TabOrder = 7
+  end
+  object Label8: TLabel
+    Left = 12
+    Height = 16
+    Top = 384
+    Width = 30
+    Caption = 'email'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 12
+    Height = 16
+    Top = 440
+    Width = 62
+    Caption = 'comentario'
+    ParentColor = False
+  end
+  object Edit9: TEdit
+    Left = 12
+    Height = 23
+    Top = 464
+    Width = 268
+    TabOrder = 8
+  end
+  object Button1: TButton
+    Left = 104
+    Height = 35
+    Top = 489
+    Width = 94
+    Caption = 'guardar'
+    ModalResult = 1
+    OnClick = Button1Click
+    TabOrder = 9
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 37
+    Top = 0
+    Width = 351
+    ClientHeight = 37
+    ClientWidth = 351
+    Color = clBlue
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 10
+    object Label10: TLabel
+      Left = 155
+      Height = 17
+      Top = 15
+      Width = 51
+      Caption = 'datos '
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -15
+      Font.Name = 'Algerian'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+end
