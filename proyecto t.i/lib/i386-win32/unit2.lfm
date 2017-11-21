@@ -1,10 +1,10 @@
 object Form2: TForm2
-  Left = 339
-  Height = 527
-  Top = 158
+  Left = 410
+  Height = 524
+  Top = 189
   Width = 356
   Caption = 'Form2'
-  ClientHeight = 527
+  ClientHeight = 524
   ClientWidth = 356
   LCLVersion = '1.0.1.3'
   object Edit1: TEdit
@@ -141,10 +141,9 @@ object Form2: TForm2
     Top = 464
     Width = 268
     TabOrder = 8
-    Text = 'Edit9'
   end
   object Button1: TButton
-    Left = 56
+    Left = 104
     Height = 35
     Top = 489
     Width = 94
@@ -180,14 +179,5 @@ object Form2: TForm2
       ParentColor = False
       ParentFont = False
     end
-  end
-  object Button2: TButton
-    Left = 160
-    Height = 32
-    Top = 490
-    Width = 98
-    Caption = 'cancelar'
-    ModalResult = 2
-    TabOrder = 11
   end
 end
