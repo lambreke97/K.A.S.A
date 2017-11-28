@@ -1,7 +1,7 @@
 object Form2: TForm2
-  Left = 410
+  Left = 893
   Height = 524
-  Top = 189
+  Top = 98
   Width = 356
   Caption = 'Form2'
   ClientHeight = 524
@@ -58,8 +58,8 @@ object Form2: TForm2
     Left = 12
     Height = 16
     Top = 280
-    Width = 93
-    Caption = 'celular o telefono'
+    Width = 45
+    Caption = 'telefono'
     ParentColor = False
   end
   object Label7: TLabel

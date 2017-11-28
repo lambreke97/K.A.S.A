@@ -5,9 +5,9 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, sqlite3conn, sqldb, db, FileUtil, Forms, Controls,
-  Graphics, Dialogs, DbCtrls, DBGrids, StdCtrls, ExtCtrls, Unit2, Unit3, Unit4,
-  Unit5;
+  Classes, SysUtils, sqlite3conn, sqldb, mysql51conn, db, FileUtil, Forms,
+  Controls, Graphics, Dialogs, DbCtrls, DBGrids, StdCtrls, ExtCtrls, Unit2,
+  Unit3, Unit4, Unit5;
 
 type
 
@@ -20,13 +20,12 @@ type
     Button4: TButton;
     Button5: TButton;
     Button6: TButton;
-    Datasource1: TDatasource;
     DBGrid1: TDBGrid;
     DBGrid2: TDBGrid;
     DBNavigator1: TDBNavigator;
     Label1: TLabel;
-    Panel1: TPanel;
-    SQLite3Connection1: TSQLite3Connection;
+    Form1: TPanel;
+    MySQL51Connection1: TMySQL51Connection;
     SQLQuery1: TSQLQuery;
     SQLTransaction1: TSQLTransaction;
     procedure Button1Click(Sender: TObject);
@@ -53,7 +52,9 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   Form2:=TForm2.create(nil);
-  Form2.Show();
+  if (Form2.ShowModal()=mrOK) then begin
+
+  end;
 
 end;
 

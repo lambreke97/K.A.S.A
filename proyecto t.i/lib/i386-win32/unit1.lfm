@@ -1,17 +1,17 @@
 object Form1: TForm1
-  Left = 482
+  Left = 504
   Height = 452
-  Top = 228
+  Top = 109
   Width = 866
   Caption = 'Form1'
-  ClientHeight = 452
-  ClientWidth = 866
+  ClientHeight = 0
+  ClientWidth = 0
   OnCreate = FormCreate
   LCLVersion = '1.0.1.3'
   object DBGrid1: TDBGrid
     Left = 16
     Height = 88
-    Top = 112
+    Top = 104
     Width = 624
     Color = clWindow
     Columns = <    
@@ -88,7 +88,7 @@ object Form1: TForm1
     TabOrder = 3
     VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbCancel, nbRefresh]
   end
-  object Panel1: TPanel
+  object Form1: TPanel
     Left = 3
     Height = 49
     Top = 0

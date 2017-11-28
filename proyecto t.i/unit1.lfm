@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 482
+  Left = 503
   Height = 452
-  Top = 228
+  Top = 175
   Width = 866
   Caption = 'Form1'
   ClientHeight = 452
@@ -11,7 +11,7 @@ object Form1: TForm1
   object DBGrid1: TDBGrid
     Left = 16
     Height = 88
-    Top = 112
+    Top = 104
     Width = 624
     Color = clWindow
     Columns = <    
@@ -88,7 +88,7 @@ object Form1: TForm1
     TabOrder = 3
     VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbCancel, nbRefresh]
   end
-  object Panel1: TPanel
+  object Form1: TPanel
     Left = 3
     Height = 49
     Top = 0
@@ -190,15 +190,6 @@ object Form1: TForm1
     OnClick = Button6Click
     TabOrder = 9
   end
-  object SQLite3Connection1: TSQLite3Connection
-    Connected = False
-    LoginPrompt = False
-    KeepConnection = False
-    LogEvents = []
-    Options = []
-    left = 712
-    top = 80
-  end
   object SQLTransaction1: TSQLTransaction
     Active = False
     Action = caNone
@@ -211,8 +202,12 @@ object Form1: TForm1
     left = 712
     top = 168
   end
-  object Datasource1: TDatasource
+  object MySQL51Connection1: TMySQL51Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    LogEvents = []
     left = 712
-    top = 216
+    top = 224
   end
 end
